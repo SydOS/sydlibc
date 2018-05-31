@@ -1,3 +1,5 @@
 .PHONY: tests
 tests:
-	gcc tests/assert.c src/assert.c -o asserttest -Isrc/include
+	mkdir -p testbin
+	gcc tests/assert-ndebug.c src/assert.c -o testbin/asserttest-ndebug -Isrc/include
+	gcc tests/assert.c src/assert.c -o testbin/asserttest -Isrc/include
