@@ -1,7 +1,7 @@
 // Assert.h defines the assert macro and internal function. This is used to
 // verify an expression is true (such as 4+4 = 8). It kills the app if the
 // evaluated expression is false. This is mostly used to make sure sane values
-// are sent along in debugging or mission critial stuff
+// are sent along in debugging
 
 #ifndef _ASSERT_H
 #define _ASSERT_H
