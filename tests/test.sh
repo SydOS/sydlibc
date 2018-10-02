@@ -6,3 +6,6 @@ assert "$?" "0"
 # The following test should fail, as it's testing that sydlibc assert works
 ../testbin/asserttest
 assert_fail "$?" "0"
+
+../testbin/isdigittest
+assert "$?" "0"
