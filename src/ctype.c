@@ -6,3 +6,12 @@
 int isdigit(int c) {
 	return c >= '0' && c <= '9';
 }
+
+/**
+ * Function to check if the passed char contains a lower case letter
+ * @param a char
+ * @return 1 if is a lower case letter, 0 if not
+ */
+int islower(int c) {
+	return c >= 'a' && c <= 'z';
+}
