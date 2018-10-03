@@ -7,5 +7,5 @@ assert "$?" "0"
 ../testbin/asserttest
 assert_fail "$?" "0"
 
-../testbin/isdigittest
+../testbin/ctypetest
 assert "$?" "0"
