@@ -3,5 +3,6 @@
 
 extern int isdigit(int c);
 extern int islower(int c);
+extern int isupper(int c);
 
 #endif
