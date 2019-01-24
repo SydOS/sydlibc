@@ -42,3 +42,12 @@ int isalpha(int c) {
 int isalnum(int c) {
 	return isalpha(c) || isdigit(c);
 }
+
+/**
+ * Function to check if the passed char is "blank"
+ * @param a char
+ * @return 1 if is space or tab, 0 if not
+ */
+int isblank(int c) {
+	return (c == ' ') || (c == '\t')
+}
